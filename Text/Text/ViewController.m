@@ -17,8 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
+    
+    
+    
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    NSLog(@"请点击");
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
